@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.author = 'Mark Lee'
   s.email = 'pronto+oj@lazymalevolence.com'
-  s.homepage = 'http://github.org/malept/pronto-oj'
+  s.homepage = 'http://github.org/malept/pronto-oj_validator'
   s.summary = 'Pronto runner for validating JSON via Oj'
 
   s.required_rubygems_version = '>= 1.3.6'
