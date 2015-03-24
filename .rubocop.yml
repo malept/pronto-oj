@@ -1,0 +1,15 @@
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100
+
+SignalException:
+  EnforcedStyle: only_raise
+
+# Disabled, see bbatsov/rubocop#1633
+Style/MultilineOperationIndentation:
+  Enabled: false
+
+TrailingComma:
+  Enabled: false
