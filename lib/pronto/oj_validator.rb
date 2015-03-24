@@ -26,11 +26,11 @@ module Pronto
       []
     end
 
-    def new_message(offence, line)
+    def new_message(offense, line)
       path = line.patch.delta.new_file[:path]
       level = :error
 
-      Message.new(path, line, level, offence)
+      Message.new(path, line, level, offense)
     end
 
     def json_file?(path)
