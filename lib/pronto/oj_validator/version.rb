@@ -1,5 +1,3 @@
 module Pronto
-  module OjValidator
-    VERSION = '0.0.1'
-  end
+  OJ_VALIDATOR_VERSION = '0.0.1'
 end

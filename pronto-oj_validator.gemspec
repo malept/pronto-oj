@@ -4,8 +4,8 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'pronto/oj_validator/version'
 
 Gem::Specification.new do |s|
-  s.name = 'pronto-oj'
-  s.version = Pronto::OjValidator::VERSION
+  s.name = 'pronto-oj_validator'
+  s.version = Pronto::OJ_VALIDATOR_VERSION
   s.platform = Gem::Platform::RUBY
   s.author = 'Mark Lee'
   s.email = 'pronto+oj@lazymalevolence.com'
